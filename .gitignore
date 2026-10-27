@@ -1,0 +1,47 @@
+# Local environments and generated Python artifacts
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+# Local application state and QA artifacts
+.local-state/
+.qa/
+*.sqlite
+*.sqlite3
+*.sqlite*-wal
+*.sqlite*-shm
+*.sqlite*-journal
+*.db
+*.log
+*.tmp
+*.xlsx
+*.xlsm
+*.pbix
+*.zip
+# Private environment, browser sessions and IDE
+.env
+.env.*
+!.env.example
+cookies*.json
+storage_state*.json
+auth*.json
+.chrome-*/
+profiles/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+# Original static screenshots in screenshots/ are intentionally versionable.
+
+# Only example configuration is intended for review
+/configuraciones/private/
+/configuraciones/local/
+/backups/
+*.csv
+!datos_demo/*.csv
+token*.json
+tokens*.json
+token*.txt
+tokens*.txt
+secrets*.json
+credentials*.json

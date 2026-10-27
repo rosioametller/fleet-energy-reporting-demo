@@ -1,0 +1,114 @@
+{
+  "format": 1,
+  "units": [
+    {
+      "id": "veh-901",
+      "plate": "DEMO-901",
+      "internal_key": "LAB-7001",
+      "lookup_key": "source-unit-41",
+      "label": "Unidad de laboratorio 1",
+      "active": true
+    },
+    {
+      "id": "veh-902",
+      "plate": "DEMO-902",
+      "internal_key": "LAB-7002",
+      "lookup_key": "source-unit-42",
+      "label": "Unidad de laboratorio 2",
+      "active": true
+    },
+    {
+      "id": "veh-903",
+      "plate": "DEMO-903",
+      "internal_key": "LAB-7003",
+      "lookup_key": "source-unit-43",
+      "label": "Unidad de laboratorio 3",
+      "active": true
+    },
+    {
+      "id": "veh-904",
+      "plate": "DEMO-904",
+      "internal_key": "LAB-7004",
+      "lookup_key": "source-unit-44",
+      "label": "Unidad de laboratorio 4",
+      "active": false
+    },
+    {
+      "id": "veh-905",
+      "plate": "DEMO-905",
+      "internal_key": "LAB-7005",
+      "lookup_key": "source-unit-45",
+      "label": "Unidad de laboratorio 5",
+      "active": true
+    },
+    {
+      "id": "veh-906",
+      "plate": "DEMO-906",
+      "internal_key": "LAB-7006",
+      "lookup_key": "source-unit-46",
+      "label": "Unidad de laboratorio 6",
+      "active": true
+    }
+  ],
+  "bundles": [
+    {
+      "id": "energy",
+      "name": "Electromovilidad y eficiencia energética"
+    }
+  ],
+  "series": [
+    {
+      "id": "boreal",
+      "bundle_id": "energy",
+      "name": "Circuito DEMO Boreal"
+    },
+    {
+      "id": "prism",
+      "bundle_id": "energy",
+      "name": "Circuito DEMO Prisma"
+    },
+    {
+      "id": "orbit",
+      "bundle_id": "energy",
+      "name": "Circuito DEMO Órbita"
+    }
+  ],
+  "assignments": [
+    {
+      "unit_id": "veh-901",
+      "series_id": "boreal",
+      "valid_from": "2030-01-01",
+      "valid_to": "2035-12-31"
+    },
+    {
+      "unit_id": "veh-902",
+      "series_id": "boreal",
+      "valid_from": "2030-01-01",
+      "valid_to": "2035-12-31"
+    },
+    {
+      "unit_id": "veh-903",
+      "series_id": "prism",
+      "valid_from": "2030-01-01",
+      "valid_to": "2035-12-31"
+    },
+    {
+      "unit_id": "veh-904",
+      "series_id": "prism",
+      "valid_from": "2030-01-01",
+      "valid_to": "2035-12-31"
+    },
+    {
+      "unit_id": "veh-905",
+      "series_id": "orbit",
+      "valid_from": "2033-01-01",
+      "valid_to": "2035-12-31"
+    },
+    {
+      "unit_id": "veh-906",
+      "series_id": "orbit",
+      "valid_from": "2030-01-01",
+      "valid_to": "2035-12-31"
+    }
+  ]
+}

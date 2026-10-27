@@ -1,0 +1,7 @@
+{
+  "description": "Ejemplo informativo; los argumentos de consola configuran la ejecución",
+  "bind_address": "127.0.0.1",
+  "port": 0,
+  "data_folder": ".local-state",
+  "default_synthetic_period": {"start": "2032-04-01", "end": "2032-04-07"}
+}
